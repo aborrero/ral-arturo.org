@@ -1,8 +1,8 @@
 title: ral-arturo.org
 email: arturo.borrero.glez@gmail.com
 description: ral-arturo blog
-baseurl: "" # the subpath of your site, e.g. /blog
-#url: "http://yourdomain.com"
+baseurl: ""
+url: "http://aborrero.github.io/ral-arturo.org"
 twitter_username: arturoborrero
 github_username:  aborrero
 markdown: kramdown
