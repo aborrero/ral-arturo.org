@@ -4,12 +4,38 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+About my work:
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+ * My daily job is at [CICA][cica] - (Centro Informatico Cientifico de
+   Andalucia - Regional [NREN][nren] Andalucia, Spain).
+ * I really love the [Debian Project][debian]. I contribute with the project
+   a lot.
+ * I contribute also in the [Netfilter Project][netfilter].
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+About this blog:
+
+This is my personal blog about technology, Linux systems or whatever.
+
+There was an old blog before this one, in Blogger:
+ [http://ral-arturo.blogspot.com.es/][ral-arturo-blogger]
+
+The content of this blog is double licensed:
+
+* [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html) license
+* [CC-BY-SA](http://creativecommons.org/licenses/by-sa/4.0) license
+
+![CC-BY-SA](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)
+
+The source code can be obtained at [GitHub][github]
+
+I have another blog about adventures, nature, trekking and
+mountains written in spanish and it's called [alfabravo.org][alfabravo].
+
+
+[cica]:				https://www.cica.es
+[nren]:				https://en.wikipedia.org/wiki/National_research_and_education_network
+[debian]:			https://www.debian.org
+[netfilter]:			http://www.netfilter.org/
+[ral-arturo-blogger]:		http://ral-arturo.blogspot.com.es/
+[github]:			https://github.com/aborrero/ral-arturo.org
+[alfabravo]:			http://alfabravo.org
