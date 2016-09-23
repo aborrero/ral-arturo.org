@@ -1,8 +1,8 @@
 title: ral-arturo.org
 email: arturo.borrero.glez@gmail.com
 description: ral-arturo blog
-baseurl: "/ral-arturo.org"
-url: "https://aborrero.github.io/"
+baseurl: ""
+url: "https://ral-arturo.org"
 twitter_username: arturoborrero
 github_username:  aborrero
 markdown: kramdown
