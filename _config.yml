@@ -6,3 +6,8 @@ url:			"http://ral-arturo.org"
 twitter_username:	arturoborrero
 github_username:	aborrero
 markdown:		kramdown
+
+#
+# other settings
+#
+excerpt_separator:	<!--more-->

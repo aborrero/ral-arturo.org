@@ -14,5 +14,7 @@ My old blog at [http://ral-arturo.blogspot.com.es][ral-arturo-blogger] will
 still be online as an archive, since I don't plan to migrate the content
 from there to here.
 
+<!--more-->
+
 [pic]:			{{site.url}}/assets/jekyllrb.png
 [ral-arturo-blogger]:	http://ral-arturo.blogspot.com.es/
