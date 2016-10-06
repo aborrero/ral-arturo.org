@@ -17,7 +17,7 @@ to use in both Debian Jessie and in Debian Stretch.
 
 <!--more-->
 
-Anyway, let's see what's we have so far:
+Anyway, let's see what we have so far:
 
  1. The pacemaker stack was updated in Debian unstable around Feb 2016.
  2. They migrated to Debian testing by that time as well.
