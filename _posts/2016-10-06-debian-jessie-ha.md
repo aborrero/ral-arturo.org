@@ -44,7 +44,7 @@ How can you check this by yourself? Here some pointers:
  * Package tracker for crmsh: [link][crmsh]
  * Package tracker for libqb: [link][libqb]
 
-I'm sure we even have the change to improve a bit the packages before the
+I'm sure we even have the chance to improve a bit the packages before the
 release of stretch. There are some packages which are a bit behind the
 upstream version.
 
