@@ -8,8 +8,7 @@ About my work:
 
  * My daily job is at [CICA][cica] - (Centro Informatico Cientifico de
    Andalucia - Regional [NREN][nren] Andalucia, Spain).
- * I really love the [Debian Project][debian]. I contribute with the project
-   a lot.
+ * I really love the [Debian Project][debian]. I am Debian Developer (DD).
  * I contribute also in the [Netfilter Project][netfilter].
 
 About this blog:
