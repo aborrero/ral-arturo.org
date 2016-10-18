@@ -67,7 +67,7 @@ And load it:
 root@debian:~# nft -f /etc/nftables.conf
 ```
 
-You nftables ruleset is now firewalling your network:
+Your nftables ruleset is now firewalling your network:
 
 ```
 root@debian:~# nft list ruleset
