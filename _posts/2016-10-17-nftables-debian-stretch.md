@@ -19,7 +19,7 @@ wide usage and adoption, even in high-demand production environments.
 The last released version of nft was 0.6, and the Debian package was updated
 just a day after Netfilter announced it.
 
-With the 0.6 version the software freamework reached a good state of maturity,
+With the 0.6 version the software framework reached a good state of maturity,
 and I myself encourage users to migrate from iptables to nftables.
 
 In case [you don't know about nftables][nftables_wiki] yet, here is a quick
