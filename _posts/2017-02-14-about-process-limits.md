@@ -145,8 +145,8 @@ and I'm running 3.2, so no problem here. Things looks promising.
 But yes, more problems. The prlimit tool is not included in the Debian Wheezy
 release.
 
-A simple call a single system call was not going to stop me now, so I searched
-more the web until I found this useful manpage: [getrlimit(2)][man].
+A simple call to a single system call was not going to stop me now, so I
+searched more the web until I found this useful manpage: [getrlimit(2)][man].
 
 There is a sample C code included in the manpage, in which we only need to
 replace RLIMIT_CPU with RLIMIT_NOFILE:
