@@ -42,7 +42,8 @@ disabling features in the codebase is not the correct solution.
 Obvoursly, the problem was somewhere else.
 
 I started investigating about system limits, which seems to have 2 main
-componentes:
+components:
+
 * system-wide limits (you tune these via sysctl, they live in the kernel)
 * user/group/process limits (via limits.conf, ulimit and prlimit)
 
