@@ -26,6 +26,9 @@ slapd[7408]: warning: cannot open /etc/hosts.deny: Too many open files
 [...]
 ```
 
+[[Please read "About process limits, round 2" for updated info on this issue]][round2]
+
+
 I couldn't believe that openldap is using tcp_wrappers (or libwrap), an ancient
 software piece that hasn't been updated for years, replaced in many other ways
 by more powerful tools (like nftables).
@@ -247,4 +250,4 @@ Nobody found this issue before? really?
 [graphs]:	{{site.url}}/assets/graphs.png
 [bug]:		https://bugs.debian.org/854436
 [man]:		https://manpages.debian.org/wheezy/manpages-dev/getrlimit.2.en.html
-
+[round2]:	{{site.url}}/2017/02/21/about-process-limits-2.html
