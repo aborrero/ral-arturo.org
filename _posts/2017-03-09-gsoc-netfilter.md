@@ -40,7 +40,7 @@ On a side note, [Debian is not participating in GSoC this year][debian] :-(
 [nftables]:	https://wiki.nftables.org
 [ideas]:	http://people.netfilter.org/pablo/nf-ideas-2017.txt
 [lists]:	http://netfilter.org/mailinglists.html
-[git]:		[http://git.netfilter.org/
+[git]:		http://git.netfilter.org/
 [bugzilla]:	https://bugzilla.netfilter.org/buglist.cgi?component=nft&list_id=1373&product=nftables&resolution=---
 [ana]:		https://twitter.com/anaRB
 [shivani]:	https://twitter.com/tuxish
