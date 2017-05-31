@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Debunk some Debian myths"
+title:  "Debunking some Debian myths"
 date:   2017-05-11 18:21 +0200
 tags:	[debian, cusl]
 ---
@@ -8,7 +8,7 @@ tags:	[debian, cusl]
 ![Debian CUSL 11][debian-cusl11]
 
 Debian has many years of history, about 25 years already.
-With such a long travel over the continous field of developing our Universal
+With such a long travel over the continuous field of developing our Universal
 Operating System, some myths, false accusations and bad reputation has arisen.
 
 Today I had the opportunity to discuss this topic, I was invited to give a
@@ -24,30 +24,30 @@ think they should be debunked.
 
 ![Picture of the talk][talk]
 
-***myth #1: Debian is old software***
+***Myth #1: Debian is old software***
 
 Please, use testing or stable-backports. If you use Debian stable your system
 will in fact be stable and that means: updates contain no new software but
 only fixes.
 
-***myth #2: Debian is slow***
+***Myth #2: Debian is slow***
 
 We compile and build most of our packages with industry-standard compilers and
-options. I don't see a significant difference on how fast linux kernel or
-mysql run in a CentOS or in Debian.
+options. I don't see a significant difference on how fast Linux kernel or
+MySQL run in a CentOS or in Debian.
 
-***myth #3: Debian is difficult***
+***Myth #3: Debian is difficult***
 
 I already discussed about this issue back in
 [Jan 2017, Debian is a puzzle: difficult][oldpost].
 
 
-***myth #4: Debian has no graphical environment***
+***Myth #4: Debian has no graphical environment***
 
-This is, simply put, false. We have gnome, kde, xfce and more.
+This is, simply put, false. We have gnome, KDE, XFCE and more.
 The basic Debian installer asks you what do you want at install time.
 
-***myth #5: since Debian isn't commercial, the quality is poor***
+***Myth #5: since Debian isn't commercial, the quality is poor***
 
 Did you know that most of our package developers are experts in their packages
 and in their upstream code? Not all, but most of them.
@@ -55,7 +55,7 @@ Besides, many package developers get paid to do their Debian job.
 Also, there are external companies which do indeed offer support for
 Debian (see [freexian][freexian] for example).
 
-***myth #6: I don't trust Debian***
+***Myth #6: I don't trust Debian***
 
 Why? Did we do something to gain this status? If so, please let us know.
 You don't trust how we build or configure our packages? You don't trust
@@ -64,7 +64,7 @@ Anyway, I'm sorry, you have to trust someone if you want to use any kind
 of computer. Supervising every single bit of your computer isn't practical
 for you. Please trust us, we do our best.
 
-***myth #7: nobody uses Debian***
+***Myth #7: nobody uses Debian***
 
 I don't agree. Many people use Debian. They even run Debian in the
 [International Space Station][iss]. Do you count derivatives, such as Ubuntu?
@@ -72,12 +72,12 @@ I don't agree. Many people use Debian. They even run Debian in the
 I believe this myth is just pointless, but some people out there really think
 nobody uses Debian.
 
-***myth #8: Debian uses systemd***
+***Myth #8: Debian uses systemd***
 
 Well, this is true. But you can run sysvinit if you want.
 I prefer and recommend systemd though :-)
 
-***myth #9: Debian is only for servers***
+***Myth #9: Debian is only for servers***
 
 No. See myths #1, #2 and #4.
 
