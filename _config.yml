@@ -8,6 +8,13 @@ github_username:	aborrero
 markdown:		kramdown
 
 #
+# pagination config
+#
+gems:			[jekyll-paginate]
+paginate:		15
+paginate_path:		"/page:num/"
+
+#
 # other settings
 #
 excerpt_separator:	<!--more-->
