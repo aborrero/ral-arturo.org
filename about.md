@@ -8,8 +8,10 @@ About my work:
 
  * My daily job is at [CICA][cica] - (Centro Informatico Cientifico de
    Andalucia - Regional [NREN][nren] Andalucia, Spain).
- * I am [Debian][debian] Developer (DD).
- * I contribute in the [Netfilter Project][netfilter].
+ * I am [Debian][debian] Developer (DD). Contact:
+  [arturo@debian.org](mailto:arturo@debian.org).
+ * I am member of the Coreteam of the the [Netfilter Project][netfilter].
+  Contact: [arturo@netfilter.org](mailto:arturo@netfilter.org).
 
 About this blog:
 
