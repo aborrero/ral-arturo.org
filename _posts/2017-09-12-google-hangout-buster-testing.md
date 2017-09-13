@@ -46,26 +46,20 @@ Simple steps:
 [...]
 ```
 
-* 3) create a directories required to rebuild the binary .deb package
+* 3) extract the original .deb package
 
 ```
-% user@debian:~/pkg $ mkdir -p google-talkplugin_current_amd64/DEBIAN
-```
-
-* 4) extract the original .deb package
-
-```
-% user@debian:~/pkg $ dpkg -x google-talkplugin_current_amd64.deb google-talkplugin_current_amd64/
+% user@debian:~/pkg $ dpkg-deb -R google-talkplugin_current_amd64.deb google-talkplugin_current_amd64/
 % user@debian:~/pkg $ dpkg -e google-talkplugin_current_amd64.deb google-talkplugin_current_amd64/DEBIAN/
 ```
 
-* 5) edit the control file, replace `libpango1.0-0` with `libpango-1.0-0`
+* 4) edit the control file, replace `libpango1.0-0` with `libpango-1.0-0`
 
 ```
 % user@debian:~/pkg $ nano google-talkplugin_current_amd64/DEBIAN/control
 ```
 
-* 6) rebuild the package and install it!
+* 5) rebuild the package and install it!
 
 ```
 % user@debian:~/pkg $ dpkg -b google-talkplugin_current_amd64
