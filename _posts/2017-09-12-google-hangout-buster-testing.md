@@ -50,7 +50,6 @@ Simple steps:
 
 ```
 % user@debian:~/pkg $ dpkg-deb -R google-talkplugin_current_amd64.deb google-talkplugin_current_amd64/
-% user@debian:~/pkg $ dpkg -e google-talkplugin_current_amd64.deb google-talkplugin_current_amd64/DEBIAN/
 ```
 
 * 4) edit the control file, replace `libpango1.0-0` with `libpango-1.0-0`
