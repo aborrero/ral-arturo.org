@@ -33,39 +33,39 @@ by editing the .deb package provided by Google.
 
 Simple steps:
 
-1. create a temporal working directory
+* 1) create a temporal working directory
 
 ```
 % user@debian:~ $ mkdir pkg
 % user@debian:~ $ cd pkg/
 ```
-2. get the original [.deb package][orig], the Google Hangout talk plugin.
+* 2) get the original [.deb package][orig], the Google Hangout talk plugin.
 
 ```
 % user@debian:~/pkg $ wget https://dl.google.com/linux/direct/google-talkplugin_current_amd64.deb
 [...]
 ```
 
-3. create a directories required to rebuild the binary .deb package
+* 3) create a directories required to rebuild the binary .deb package
 
 ```
 % user@debian:~/pkg $ mkdir -p google-talkplugin_current_amd64/DEBIAN
 ```
 
-4. extract the original .deb package
+* 4) extract the original .deb package
 
 ```
 % user@debian:~/pkg $ dpkg -x google-talkplugin_current_amd64.deb google-talkplugin_current_amd64/
 % user@debian:~/pkg $ dpkg -e google-talkplugin_current_amd64.deb google-talkplugin_current_amd64/DEBIAN/
 ```
 
-5. edit the control file, replace `libpango1.0-0` with `libpango-1.0-0`
+* 5) edit the control file, replace `libpango1.0-0` with `libpango-1.0-0`
 
 ```
 % user@debian:~/pkg $ nano google-talkplugin_current_amd64/DEBIAN/control
 ```
 
-6. rebuild the package and install it!
+* 6) rebuild the package and install it!
 
 ```
 % user@debian:~/pkg $ dpkg -b google-talkplugin_current_amd64
