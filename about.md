@@ -6,8 +6,8 @@ permalink: /about/
 
 About my work:
 
- * My daily job is at [CICA][cica] - (Centro Informatico Cientifico de
-   Andalucia - Regional [NREN][nren] Andalucia, Spain).
+ * My daily job is at [Wikimedia Foundation][wmf].
+  Contact: [aborrero@wikimedia.org](mailto:aborrero@wikimedia.org).
  * I am [Debian][debian] Developer (DD). Contact:
   [arturo@debian.org](mailto:arturo@debian.org).
  * I am member of the Coreteam of the [Netfilter Project][netfilter].
@@ -33,8 +33,7 @@ I have another blog about adventures, nature, trekking and
 mountains written in spanish and it's called [alfabravo.org][alfabravo].
 
 
-[cica]:				https://www.cica.es
-[nren]:				https://en.wikipedia.org/wiki/National_research_and_education_network
+[wmf]:				https://wikimediafoundation.org
 [debian]:			https://www.debian.org
 [netfilter]:			http://www.netfilter.org/
 [ral-arturo-blogger]:		http://ral-arturo.blogspot.com.es/
