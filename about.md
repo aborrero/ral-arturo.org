@@ -16,6 +16,8 @@ About my work:
 About this blog:
 
 This is my personal blog about technology, Linux systems or whatever.
+You can subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.
+
 
 There was an old blog before this one, in Blogger:
  [http://ral-arturo.blogspot.com.es/][ral-arturo-blogger]
