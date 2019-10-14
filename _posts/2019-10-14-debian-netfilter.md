@@ -42,7 +42,7 @@ The second part of my proposal was to promote [firewalld][firewalld] as the
 default 'wrapper' for firewaling in Debian. I think this is in line with the
 direction other distros are moving. It turns out `firewalld` integrates pretty
 well with the system, includes a DBus interface and many system daemons (like
-[libvirt][libvirt]) already has native integration with firewalld.
+[libvirt][libvirt]) already have native integration with firewalld.
 Also, I believe the days of creating custom-made scripts and hacks to handle
 the local firewall may be long gone, and `firewalld` should be very helpful
 here too.
