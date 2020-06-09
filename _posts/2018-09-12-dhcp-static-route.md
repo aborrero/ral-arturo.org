@@ -15,13 +15,13 @@ Also, DHCP clients might not behave as one would expect.
 
 <!--more-->
 
-The starting situation was a working DHCP clinet/server deployment. Some standard
-virtual machines would request for their network setup over the network.
+The starting situation is a working DHCP clinet/server deployment. Some standard
+virtual machines would request their network setup over the network.
 Nothing new. The DHCP server is dnsmasq, and the daemon is running under
 Openstack control, but this has nothing to do with the DHCP problem itself.
 
 By default, it seems dnsmasq sends to clients the `Routers (code 3)` option,
-which usually contains the gateway for clients in the subnet to use.
+which usually contains the default gateway for clients to use.
 My situation required to distribute one additional static route for another
 subnet. My idea was for DHCP clients to end with this simple routing table:
 
@@ -29,7 +29,8 @@ subnet. My idea was for DHCP clients to end with this simple routing table:
 user@dhcpclient:~$ ip r
 default via 10.0.0.1 dev eth0 
 10.0.0.0/24 dev eth0  proto kernel  scope link  src 10.0.0.100 
-172.16.0.0/21 via 10.0.0.253 dev eth0 <--- extra static route
+172.16.0.0/21 via 10.0.0.253 dev eth0
+^^^ extra static route
 ```
 To distribute this extra static route, you only need to edit the dnsmasq config
 file and add a line like this:
@@ -38,10 +39,11 @@ file and add a line like this:
 dhcp-option=option:classless-static-route,172.16.0.0/21,10.0.0.253
 ```
 
-For my initial tests of this config I was simply doing requesting to refresh the
-lease from the client DHCP. This got my new static route online, but if in the
-case of a reboot, the client DHCP would not get the default route.
-The different behaviour is documented in `dhclient-script(8)`.
+For theinitial tests of this config I was simply refreshing the lease from the client DHCP side.
+This got my new static route online. But, and here comes the interesting part, in the case of a
+reboot, the DHCP client would not add the default route to the local configuration. The different
+behaviour is documented in `dhclient-script(8)`. So, apparently refreshing the lease and doing a
+full machine reboot are completely different situations from the DHCP client point of view.
 
 To try something similar to a reboot situation, I had to use this command:
 ```
@@ -60,8 +62,8 @@ RTNETLINK answers: File exists
 bound to 10.0.0.100 -- renewal in 20284 seconds.
 ```
 
-Anyway this was really surprissing at first, and led me to debug DHCP packets
-using `dhcpdump`:
+Anyway the root problem is the same: Why would the DHCP client not install the default route?
+This was really surprissing at first, and led me to debug DHCP packets using `dhcpdump`:
 
 ```
   TIME: 2018-09-11 18:06:03.496
@@ -117,10 +119,11 @@ dhcp-option=option:classless-static-route,0.0.0.0/0,10.0.0.1,172.16.0.0/21,10.0.
 #                                         ^^ default route   ^^ extra static route 
 ```
 
-Obviously this was my first time in my career dealing with this setup and situation.
+Obviously this was the first time in my career dealing with this setup and situation.
 My conclussion is that even old-enough protocols like DHCP can sometimes behave
 in a counter-intuitive way. Reading RFCs is not always funny, but can help
-understand what's going on.
+understand what's going on. I wonder why the protocol is defined this way. I bet there
+are valid reasons for it. Or not? Who knows.
 
 You can read the original issue in Wikimedia Foundation's Phabricator ticket
 [T202636][phab], including all the back-and-forth work I did.
