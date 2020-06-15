@@ -121,7 +121,7 @@ The community wanted a better Toolforge, and so do we, and after almost 2 years
 of work, we have it!  All the work that was done represents the commitment of
 the Wikimedia Foundation to support the technical community and how we really
 want to pursue technical engagement in general in the Wikimedia movement. In a
-follow-up post we will present and discuss more in-depth about some technical
+[follow-up post][next] we will present and discuss more in-depth about some technical
 details of the new Kubernetes cluster, stay tuned!
 
 _This post was originally published in the [Wikimedia Tech blog][origin], and
@@ -141,3 +141,4 @@ is authored by Arturo Borrero Gonzalez and Brooke Storm._
 [domain]:	https://wikitech.wikimedia.org/wiki/News/Toolforge.org
 [origin]:	https://techblog.wikimedia.org/2020/05/18/a-better-toolforge-upgrading-the-kubernetes-cluster/
 [logos]:	{{site.url}}/assets/toolforge_kubernetes_post_800x400.png
+[next]:		{{site.url}}/2020/06/15/toolforge-k8s-part2.html
