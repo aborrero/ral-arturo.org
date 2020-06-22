@@ -70,7 +70,7 @@ Kubernetes API. The following diagram shows the design of our RBAC and PSP in ou
 [_RBAC and PSP for Toolforge, original image in wikitech_][rbac_img_src]
 
 I mentioned that we know about each user by means of TLS certificates. This is true, and in fact,
-there is a key component in our setup called [maintain-kubeusers][maintain-k8s]. This custom piece
+there is a key component in our setup called [maintain-kubeusers][maintain_k8s]. This custom piece
 of Python software is run as a pod inside the cluster and is responsible for reading our external
 user database (LDAP) and generating the required credentials, namespaces, and other configuration
 bits for them. With the TLS cert, we basically create a kubeconfig file that is then written into
