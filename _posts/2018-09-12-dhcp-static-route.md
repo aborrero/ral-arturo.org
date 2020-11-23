@@ -39,7 +39,7 @@ file and add a line like this:
 dhcp-option=option:classless-static-route,172.16.0.0/21,10.0.0.253
 ```
 
-For theinitial tests of this config I was simply refreshing the lease from the client DHCP side.
+For the initial configuratoin tests I was simply refreshing the lease from the client DHCP side.
 This got my new static route online. But, and here comes the interesting part, in the case of a
 reboot, the DHCP client would not add the default route to the local configuration. The different
 behaviour is documented in `dhclient-script(8)`. So, apparently refreshing the lease and doing a
