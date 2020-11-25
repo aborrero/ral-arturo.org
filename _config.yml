@@ -11,7 +11,7 @@ markdown:		kramdown
 # pagination config
 #
 plugins:		[jekyll-paginate, kramdown-parser-gfm]
-paginate:		15
+paginate:		14
 paginate_path:		"/page:num/"
 
 #
