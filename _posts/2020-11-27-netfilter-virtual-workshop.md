@@ -120,11 +120,12 @@ they have full control of what's happening to their ruleset, reducing the chance
 an inconsistent configuration. There is a proof-of-concept patch by Pablo to support this, and Eric
 mentioned he is pretty much interested in any improvements to support this use case.
 
-The final time block in the final workshop day was dedicated to talk about the next workshop.
+The final time block in the final session day was dedicated to talk about the next workshop.
 We are all very happy we could meet. Meeting virtually is way easier (and cheaper) than in person.
 Perhaps we can make it online every 3 or 6 months instead of, or in addition to, one big annual
 physical event. We will see what happens next year.
 
+That's all on my side!
 
 [nfws]:			https://workshop.netfilter.org/
 [paper]:		https://www.eng.tau.ac.il/~yash/C2_039_Wool.pdf
