@@ -33,9 +33,8 @@ cgroups present, etc. We will have to wait a bit more to see how the final imple
 like.
 
 Also, Florian presented his concerns on conntrack hash collisions. There are no real-world known
-issues at the moment, but there is a paper
-["REMOTE ALGORITHMIC COMPLEXITY ATTACKS AGAINST RANDOMIZED HASH TABLES"][paper] that suggests we
-should introduce some improvements to prevent, for example, DoS attack vectors. Florian mentioned
+issues at the moment, but there is an [old paper][paper] that suggests we should keep and eye on
+this and introduce improvements to prevent future DoS attack vectors. Florian mentioned
 these attacks are not practical at the moment, but who knows in a few years. He wants to explore
 introducing [RB trees][rbtree] for conntrack. It will probably be a rbtree structure of hash
 tables in order to keep supporting parallel insertions. He was encouraged by others to go ahead and
