@@ -15,8 +15,9 @@ talking about a genuine community thing here.
 
 It was decided there would be an online format, split in 3 short meetings, once per week on
 Fridays. I was unable to attend the first session on 2020-11-06 due to scheduling conflict, but I
-made it to the sessions on 2020-11-13 and 2020-11-20. This post is a summary with some notes on
-what happened in this edition, with no special order.
+made it to the sessions on 2020-11-13 and 2020-11-20. I would say the sessions were joined by about
+8 to 10 people, depending on the day. This post is a summary with some notes on what happened in
+this edition, with no special order.
 
 <!--more-->
 
