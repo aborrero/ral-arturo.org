@@ -25,11 +25,11 @@ enough to have everything ready to go.
 
 To interact with libnftables you have 2 options, either use the standard nft syntax or the JSON
 format. The standard format allows you to send commands exactly like you would do using the `nft`
-binary. That format is intended for humans and it doesn't make a lot of sense in a programmatic 
+binary. This format is intended for humans, and it doesn't make a lot of sense in a programmatic 
 interaction. Whereas JSON is pretty convenient, specially in a python environment, where there
 are direct data structure equivalents.
 
-The following code snippet gives you an example of how easy this is to use:
+The following code snippet gives you an example of how easy this is:
 
 ```python
 #!/usr/bin/env python3
@@ -51,9 +51,9 @@ your python code is:
 * configure library behavior
 * run commands and parse the output (ideally using JSON)
 
-The key here is to use the JSON format. It allows adding ruleset modification in batches, i.e.
+The key here is to use the JSON format. It allows performing ruleset modification in batches, i.e.
 to create tables, chains, rules, sets, stateful counters, etc in a single atomic transaction, which
-is the proper way to update firewalling and NAT policies in the kernel and to avoid inconsistent
+is the proper way to update firewalling and NAT policies in the kernel, to avoid inconsistent
 intermediate states.
 
 The JSON schema is pretty well documented in the [libnftables-json(5)][libnftables-json] manpage.
@@ -99,13 +99,13 @@ Translates into JSON as such:
     }}}
 ]}
 ```
-I encourage you to take a look at the manpage if you want to know about how powerful this interface
-is. I've created a git repository to host several source code examples using different features of
-the library: [https://github.com/aborrero/python-nftables-tutorial][github]. I plan to introduce
-more code examples as I learn and create them.
+I encourage you to take a look at the manpage if you want to know more, and see how powerful this
+interface is. I've created a git repository to host several source code examples using different
+features of the library: [https://github.com/aborrero/python-nftables-tutorial][github]. I plan to
+introduce more code examples as I learn and have time to create them.
 
 There are several relevant projects out there using this nftables python integration already. One
-of the most important pieces of software is `firewalld`. They
+of the most important pieces of software using it is `firewalld`. They
 [started using the JSON format back in 2019][firewalld-json].
 
 In the past, people interacting with iptables programmatically would either call the iptables
@@ -114,7 +114,7 @@ source code. The native python approach to use libnftables is a huge step forwar
 come handy for developers, network engineers, integrators and other folks using the nftables
 framework in a pythonic environment.
 
-If you are interested to know how this python binding works, I invite you to take a look at the
+If you are interested in knowing how this python binding works, I invite you to take a look at the
 [upstream source code, nftables.py][binding], which contains all the magic behind the scenes.
 
 [github]:		https://github.com/aborrero/python-nftables-tutorial
