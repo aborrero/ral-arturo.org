@@ -81,7 +81,7 @@ Translates into JSON as such:
         "family": "inet",
         "table": "mytable",
         "chain": "mychain"
-    }}}
+    }}},
     { "add": { "rule": {
         "family": "inet",
         "table": "mytable",
