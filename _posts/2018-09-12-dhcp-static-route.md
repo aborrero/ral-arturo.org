@@ -15,7 +15,7 @@ Also, DHCP clients might not behave as one would expect.
 
 <!--more-->
 
-The starting situation is a working DHCP clinet/server deployment. Some standard
+The starting situation is a working DHCP client/server deployment. Some standard
 virtual machines would request their network setup over the network.
 Nothing new. The DHCP server is dnsmasq, and the daemon is running under
 Openstack control, but this has nothing to do with the DHCP problem itself.
