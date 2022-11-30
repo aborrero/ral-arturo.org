@@ -6,6 +6,8 @@ url:			"https://ral-arturo.org"
 twitter_username:	arturoborrero
 github_username:	aborrero
 markdown:		kramdown
+mastodon_username: arturobg
+mastodon_server: mas.to
 
 #
 # pagination config
