@@ -98,5 +98,6 @@ _This post was originally published in the [Wikimedia Tech blog][origin], author
 [phabbeta]:     https://phabricator.wikimedia.org/T285944
 [migration]:    https://wikitech.wikimedia.org/wiki/News/Toolforge_Stretch_deprecation
 [swagger]:      https://en.wikipedia.org/wiki/Swagger_(software)
-[automation]:    https://phabricator.wikimedia.org/T291915
+[automation]:   https://phabricator.wikimedia.org/T291915
 [early]:        https://wikitech.wikimedia.org/w/index.php?title=Wikimedia_Cloud_Services_team/EnhancementProposals/Toolforge_jobs&diff=1895051&oldid=1895049
+[raws]:         https://wikitech.wikimedia.org/wiki/Help:Toolforge/Raw_Kubernetes_jobs
