@@ -7,12 +7,8 @@ permalink: /about/
 About me:
 
  * Personal contact email: [arturo.bg@arturo.bg](mailto:arturo.bg@arturo.bg)
- * My daily job is at [Wikimedia Foundation][wmf].
-  Contact: [aborrero@wikimedia.org](mailto:aborrero@wikimedia.org)
  * I am [Debian][debian] Developer (DD). Contact:
   [arturo@debian.org](mailto:arturo@debian.org)
- * I am member of the Coreteam of the [Netfilter Project][netfilter].
-  Contact: [arturo@netfilter.org](mailto:arturo@netfilter.org)
 
 About this blog:
 
