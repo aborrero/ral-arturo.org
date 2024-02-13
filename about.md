@@ -7,6 +7,8 @@ permalink: /about/
 About me:
 
  * Personal contact email: [arturo.bg@arturo.bg](mailto:arturo.bg@arturo.bg)
+ * I work full time in the [Wikimedia Foundation Cloud Services team][wmcs]. Contact:
+  [aborrero@wikimedia.org](mailto:aborrero@wikimedia.org)
  * I am [Debian][debian] Developer (DD). Contact:
   [arturo@debian.org](mailto:arturo@debian.org)
 
@@ -33,3 +35,4 @@ mountains written in spanish and it's called [alfabravo.org][alfabravo].
 [ral-arturo-blogger]:   https://ral-arturo.blogspot.com.es/
 [github]:               https://github.com/aborrero/ral-arturo.org
 [alfabravo]:            https://alfabravo.org
+[wmcs]:                 https://www.mediawiki.org/wiki/Wikimedia_Cloud_Services_team
