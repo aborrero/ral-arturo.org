@@ -117,8 +117,8 @@ framework in a pythonic environment.
 If you are interested in knowing how this python binding works, I invite you to take a look at the
 [upstream source code, nftables.py][binding], which contains all the magic behind the scenes.
 
-[github]:		https://github.com/aborrero/python-nftables-tutorial
-[binding]:		https://git.netfilter.org/nftables/tree/py/nftables.py
+[github]:		    https://github.com/aborrero/python-nftables-tutorial
+[binding]:		    https://git.netfilter.org/nftables/tree/py/src/nftables.py
 [firewalld-json]:	https://firewalld.org/2019/09/libnftables-JSON
 [libnftables-json]:	https://manpages.debian.org/unstable/libnftables1/libnftables-json.5
-[logo]:			{{site.url}}/assets/netfilter-logo3.png
+[logo]:			    {{site.url}}/assets/netfilter-logo3.png
