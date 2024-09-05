@@ -3,7 +3,6 @@ email:			arturo.bg@arturo.bg
 description:		ral-arturo blog, about free software, debian, networks, systems, or whatever
 baseurl:		""
 url:			"https://ral-arturo.org"
-twitter_username:	arturoborrero
 github_username:	aborrero
 markdown:		kramdown
 mastodon_username: arturobg
