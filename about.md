@@ -7,8 +7,6 @@ permalink: /about/
 About me:
 
  * Personal contact email: [arturo.bg@arturo.bg](mailto:arturo.bg@arturo.bg)
- * I work full time in the [Wikimedia Foundation Cloud Services team][wmcs]. Contact:
-  [aborrero@wikimedia.org](mailto:aborrero@wikimedia.org)
  * I am [Debian][debian] Developer (DD). Contact:
   [arturo@debian.org](mailto:arturo@debian.org)
 
