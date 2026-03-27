@@ -7,4 +7,4 @@ echo 'source "https://rubygems.org"' >> Gemfile
 echo 'gem "jekyll"' >> Gemfile
 echo 'gem "jekyll-paginate"' >> Gemfile
 
-podman run --rm --volume="$PWD:/site" -p 4000:4000 docker.io/bretfisher/jekyll-serve
+docker run --rm --volume="$PWD:/site" -p 4000:4000 docker.io/bretfisher/jekyll-serve
